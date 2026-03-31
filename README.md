@@ -90,24 +90,8 @@ Two **ESP32 microcontrollers** communicate wirelessly via **ESP-NOW**, eliminati
 ## 🏗 System Architecture
 
 ```
-                        Power Supply (6V)
-                              │
-                    Buck-Boost Converter
-                      /               \
-            A4988 Driver(1)       A4988 Driver(2)
-                  │                       │
-           X-Component              Y-Component
-                  │                       │
-            Stepper Motor(1)      Stepper Motor(2)
-                  │                       │
-           Ultrasonic            L298N Motor Driver
-             Sensor                       │
-                  │               Center-Shaft Motor
-                  │
-              ESP-32 (1) ◄──────────► ESP-32 (2)
-                                          │
-                                   Servo Motor(1) → Paint Tray (rack & pinion)
-                                   Servo Motor(2) → Paint Roller
+![BlockDiagram] docs/BlockDiagram.jpg
+
 ```
 
 **Communication Flow:**
