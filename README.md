@@ -89,15 +89,11 @@ Two **ESP32 microcontrollers** communicate wirelessly via **ESP-NOW**, eliminati
 
 ## 🏗 System Architecture
 
-```
-<<<<<<< HEAD
-![BlockDiagram] docs/BlockDiagram.jpg
-=======
+
 
 ![Block Diagram](https://github.com/user-attachments/assets/7bbc5395-4223-488b-8f5e-96087478a33d)
->>>>>>> 4309ccbc041a2cef52ad038752b88c6cacfbde24
 
-```
+
 
 **Communication Flow:**
 - Y-component ESP32 detects wall end via ultrasonic sensor
